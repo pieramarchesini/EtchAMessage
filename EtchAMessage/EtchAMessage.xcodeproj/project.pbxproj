@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6510FEC8202A7B100086CFA0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6510FEC7202A7B100086CFA0 /* Extensions.swift */; };
+		657533242028E8C40013A10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657533232028E8C40013A10D /* Assets.xcassets */; };
+		6575332B2028E8C40013A10D /* EtchAMessage MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6575332A2028E8C40013A10D /* EtchAMessage MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		657533302028E8C40013A10D /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6575332F2028E8C40013A10D /* Messages.framework */; };
+		657533332028E8C40013A10D /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657533322028E8C40013A10D /* MessagesViewController.swift */; };
+		657533362028E8C40013A10D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657533342028E8C40013A10D /* MainInterface.storyboard */; };
+		657533382028E8C40013A10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657533372028E8C40013A10D /* Assets.xcassets */; };
+		657533442028EA3B0013A10D /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657533432028EA3B0013A10D /* DrawViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6575332C2028E8C40013A10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6575331A2028E8C40013A10D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657533292028E8C40013A10D;
+			remoteInfo = "EtchAMessage MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6575333F2028E8C40013A10D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6575332B2028E8C40013A10D /* EtchAMessage MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6510FEC7202A7B100086CFA0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		657533202028E8C40013A10D /* EtchAMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtchAMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657533232028E8C40013A10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657533252028E8C40013A10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6575332A2028E8C40013A10D /* EtchAMessage MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EtchAMessage MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6575332F2028E8C40013A10D /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		657533322028E8C40013A10D /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		657533352028E8C40013A10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		657533372028E8C40013A10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657533392028E8C40013A10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657533432028EA3B0013A10D /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657533272028E8C40013A10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657533302028E8C40013A10D /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657533192028E8C40013A10D = {
+			isa = PBXGroup;
+			children = (
+				657533222028E8C40013A10D /* EtchAMessage */,
+				657533312028E8C40013A10D /* EtchAMessage MessagesExtension */,
+				6575332E2028E8C40013A10D /* Frameworks */,
+				657533212028E8C40013A10D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657533212028E8C40013A10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657533202028E8C40013A10D /* EtchAMessage.app */,
+				6575332A2028E8C40013A10D /* EtchAMessage MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657533222028E8C40013A10D /* EtchAMessage */ = {
+			isa = PBXGroup;
+			children = (
+				657533232028E8C40013A10D /* Assets.xcassets */,
+				657533252028E8C40013A10D /* Info.plist */,
+			);
+			path = EtchAMessage;
+			sourceTree = "<group>";
+		};
+		6575332E2028E8C40013A10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6575332F2028E8C40013A10D /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		657533312028E8C40013A10D /* EtchAMessage MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				657533322028E8C40013A10D /* MessagesViewController.swift */,
+				6510FEC7202A7B100086CFA0 /* Extensions.swift */,
+				657533432028EA3B0013A10D /* DrawViewController.swift */,
+				657533342028E8C40013A10D /* MainInterface.storyboard */,
+				657533372028E8C40013A10D /* Assets.xcassets */,
+				657533392028E8C40013A10D /* Info.plist */,
+			);
+			path = "EtchAMessage MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6575331F2028E8C40013A10D /* EtchAMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657533402028E8C40013A10D /* Build configuration list for PBXNativeTarget "EtchAMessage" */;
+			buildPhases = (
+				6575331E2028E8C40013A10D /* Resources */,
+				6575333F2028E8C40013A10D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6575332D2028E8C40013A10D /* PBXTargetDependency */,
+			);
+			name = EtchAMessage;
+			productName = EtchAMessage;
+			productReference = 657533202028E8C40013A10D /* EtchAMessage.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		657533292028E8C40013A10D /* EtchAMessage MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6575333C2028E8C40013A10D /* Build configuration list for PBXNativeTarget "EtchAMessage MessagesExtension" */;
+			buildPhases = (
+				657533262028E8C40013A10D /* Sources */,
+				657533272028E8C40013A10D /* Frameworks */,
+				657533282028E8C40013A10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EtchAMessage MessagesExtension";
+			productName = "EtchAMessage MessagesExtension";
+			productReference = 6575332A2028E8C40013A10D /* EtchAMessage MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6575331A2028E8C40013A10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Piera Marchesini";
+				TargetAttributes = {
+					6575331F2028E8C40013A10D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					657533292028E8C40013A10D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6575331D2028E8C40013A10D /* Build configuration list for PBXProject "EtchAMessage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657533192028E8C40013A10D;
+			productRefGroup = 657533212028E8C40013A10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6575331F2028E8C40013A10D /* EtchAMessage */,
+				657533292028E8C40013A10D /* EtchAMessage MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6575331E2028E8C40013A10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657533242028E8C40013A10D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657533282028E8C40013A10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657533382028E8C40013A10D /* Assets.xcassets in Resources */,
+				657533362028E8C40013A10D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657533262028E8C40013A10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657533442028EA3B0013A10D /* DrawViewController.swift in Sources */,
+				6510FEC8202A7B100086CFA0 /* Extensions.swift in Sources */,
+				657533332028E8C40013A10D /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6575332D2028E8C40013A10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657533292028E8C40013A10D /* EtchAMessage MessagesExtension */;
+			targetProxy = 6575332C2028E8C40013A10D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		657533342028E8C40013A10D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657533352028E8C40013A10D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6575333A2028E8C40013A10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6575333B2028E8C40013A10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6575333D2028E8C40013A10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = "EtchAMessage MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.EtchAMessage.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6575333E2028E8C40013A10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = "EtchAMessage MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.EtchAMessage.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		657533412028E8C40013A10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = EtchAMessage/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.EtchAMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		657533422028E8C40013A10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q8A65W24Q;
+				INFOPLIST_FILE = EtchAMessage/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = MackMobile.EtchAMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6575331D2028E8C40013A10D /* Build configuration list for PBXProject "EtchAMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575333A2028E8C40013A10D /* Debug */,
+				6575333B2028E8C40013A10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6575333C2028E8C40013A10D /* Build configuration list for PBXNativeTarget "EtchAMessage MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575333D2028E8C40013A10D /* Debug */,
+				6575333E2028E8C40013A10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657533402028E8C40013A10D /* Build configuration list for PBXNativeTarget "EtchAMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657533412028E8C40013A10D /* Debug */,
+				657533422028E8C40013A10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6575331A2028E8C40013A10D /* Project object */;
+}
