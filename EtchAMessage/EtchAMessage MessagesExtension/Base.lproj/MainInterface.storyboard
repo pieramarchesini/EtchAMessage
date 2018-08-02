@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
@@ -67,34 +67,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
                             </imageView>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fka-8W-9hx">
-                                <rect key="frame" x="20" y="65" width="280" height="250"/>
+                                <rect key="frame" x="28" y="65" width="264" height="217"/>
                                 <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Fka-8W-9hx" secondAttribute="height" multiplier="28:25" id="Y9k-hM-TVO"/>
+                                    <constraint firstAttribute="width" secondItem="Fka-8W-9hx" secondAttribute="height" multiplier="28:23" id="Y9k-hM-TVO"/>
                                 </constraints>
                             </view>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buttonRightY" translatesAutoresizingMaskIntoConstraints="NO" id="MVL-Ms-0ZY">
-                                <rect key="frame" x="216" y="323" width="84" height="84"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="MVL-Ms-0ZY" secondAttribute="height" multiplier="1:1" id="UpI-IN-jLT"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="4q9-uB-jQX" appends="YES" id="81E-GN-Ymp"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buttonLeftX" translatesAutoresizingMaskIntoConstraints="NO" id="PKi-3c-MsM">
-                                <rect key="frame" x="20" y="323" width="84" height="84"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="PKi-3c-MsM" secondAttribute="height" multiplier="1:1" id="LSJ-a3-MGi"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="02i-7T-0iK" appends="YES" id="83P-sp-BXp"/>
-                                </connections>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCQ-Wv-iam">
-                                <rect key="frame" x="188" y="471" width="112" height="37"/>
+                                <rect key="frame" x="180" y="471" width="112" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oCQ-Wv-iam" secondAttribute="height" multiplier="245:81" id="ITh-eD-8i9"/>
                                 </constraints>
@@ -103,26 +83,48 @@
                                     <action selector="sendButtonPressed:" destination="jvw-Hh-I7R" eventType="touchUpInside" id="O1m-kp-g9F"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="120" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZoU-iM-gjr">
+                                <rect key="frame" x="28" y="290" width="264" height="72"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buttonLeftX" translatesAutoresizingMaskIntoConstraints="NO" id="PKi-3c-MsM">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="72"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PKi-3c-MsM" secondAttribute="height" multiplier="1:1" id="jpM-bY-FYJ"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="02i-7T-0iK" appends="YES" id="83P-sp-BXp"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buttonRightY" translatesAutoresizingMaskIntoConstraints="NO" id="MVL-Ms-0ZY">
+                                        <rect key="frame" x="192" y="0.0" width="72" height="72"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="MVL-Ms-0ZY" secondAttribute="height" multiplier="1:1" id="HSF-C2-bfN"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="4q9-uB-jQX" appends="YES" id="81E-GN-Ymp"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ZoU-iM-gjr" firstAttribute="top" secondItem="Fka-8W-9hx" secondAttribute="bottom" constant="8" id="7cB-OK-0zP"/>
                             <constraint firstItem="MUN-91-yHH" firstAttribute="width" secondItem="fGS-ad-IMW" secondAttribute="width" id="8C3-S6-8xG"/>
-                            <constraint firstItem="oCQ-Wv-iam" firstAttribute="trailing" secondItem="MVL-Ms-0ZY" secondAttribute="trailing" id="Du0-lK-1vB"/>
-                            <constraint firstItem="PKi-3c-MsM" firstAttribute="width" secondItem="Fka-8W-9hx" secondAttribute="width" multiplier="0.3" id="F4l-dZ-Gmr"/>
-                            <constraint firstItem="Fka-8W-9hx" firstAttribute="leading" secondItem="fGS-ad-IMW" secondAttribute="leading" constant="20" id="M13-He-diu"/>
+                            <constraint firstItem="Fka-8W-9hx" firstAttribute="leading" secondItem="fGS-ad-IMW" secondAttribute="leading" constant="28" id="M13-He-diu"/>
                             <constraint firstItem="fGS-ad-IMW" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oCQ-Wv-iam" secondAttribute="bottom" constant="13" id="NLX-TB-Lt2"/>
-                            <constraint firstItem="MVL-Ms-0ZY" firstAttribute="width" secondItem="PKi-3c-MsM" secondAttribute="width" id="R7t-Ci-U33"/>
-                            <constraint firstItem="fGS-ad-IMW" firstAttribute="trailing" secondItem="Fka-8W-9hx" secondAttribute="trailing" constant="20" id="Rqe-Nx-IiC"/>
+                            <constraint firstItem="ZoU-iM-gjr" firstAttribute="trailing" secondItem="Fka-8W-9hx" secondAttribute="trailing" id="RaQ-2p-UYP"/>
+                            <constraint firstItem="fGS-ad-IMW" firstAttribute="trailing" secondItem="Fka-8W-9hx" secondAttribute="trailing" constant="28" id="Rqe-Nx-IiC"/>
                             <constraint firstItem="fGS-ad-IMW" firstAttribute="bottom" secondItem="oCQ-Wv-iam" secondAttribute="bottom" priority="900" constant="20" id="WMi-dw-dAR"/>
-                            <constraint firstItem="MVL-Ms-0ZY" firstAttribute="top" secondItem="PKi-3c-MsM" secondAttribute="top" id="YGn-9r-AXw"/>
-                            <constraint firstItem="PKi-3c-MsM" firstAttribute="firstBaseline" secondItem="Fka-8W-9hx" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="eqV-bB-Kj6"/>
-                            <constraint firstItem="PKi-3c-MsM" firstAttribute="leading" secondItem="Fka-8W-9hx" secondAttribute="leading" id="fKp-KA-jDq"/>
+                            <constraint firstItem="oCQ-Wv-iam" firstAttribute="trailing" secondItem="Fka-8W-9hx" secondAttribute="trailing" id="mc8-b7-RHd"/>
                             <constraint firstItem="MUN-91-yHH" firstAttribute="baseline" secondItem="Fka-8W-9hx" secondAttribute="firstBaseline" multiplier="8" constant="8" symbolType="layoutAnchor" id="mov-UZ-s1w"/>
                             <constraint firstItem="MUN-91-yHH" firstAttribute="leading" secondItem="fGS-ad-IMW" secondAttribute="leading" id="niF-8O-Sd6"/>
-                            <constraint firstItem="MVL-Ms-0ZY" firstAttribute="trailing" secondItem="Fka-8W-9hx" secondAttribute="trailing" id="oKS-Ba-7vz"/>
                             <constraint firstItem="oCQ-Wv-iam" firstAttribute="width" secondItem="MUN-91-yHH" secondAttribute="width" multiplier="0.35" id="rJ2-Z3-gY8"/>
                             <constraint firstItem="MUN-91-yHH" firstAttribute="top" secondItem="XVY-7a-rn3" secondAttribute="top" id="sjy-uW-B41"/>
                             <constraint firstItem="fGS-ad-IMW" firstAttribute="bottom" secondItem="MUN-91-yHH" secondAttribute="bottom" id="v1i-3s-T0o"/>
+                            <constraint firstItem="ZoU-iM-gjr" firstAttribute="leading" secondItem="Fka-8W-9hx" secondAttribute="leading" id="wgS-Se-r0X"/>
                             <constraint firstItem="MUN-91-yHH" firstAttribute="trailing" secondItem="fGS-ad-IMW" secondAttribute="trailing" id="zAT-Zj-1Cb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fGS-ad-IMW"/>

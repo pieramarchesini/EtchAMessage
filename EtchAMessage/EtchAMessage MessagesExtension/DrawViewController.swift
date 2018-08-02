@@ -27,7 +27,7 @@ class DrawViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        previousPoint.y = self.magicScreen.frame.size.height+48
+        previousPoint.y = self.magicScreen.frame.size.height+44
     }
     
     //MARK: - Action
